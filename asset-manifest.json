@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.04a3ab07.css",
-    "main.js": "./static/js/main.f4c5677f.js",
-    "static/media/about_decorate.png": "./static/media/about_decorate.fb62435284b29fb44bc9.png",
-    "static/media/intro_bg.png": "./static/media/intro_bg.2b283d4c4b72d25c483b.png",
-    "static/media/Apercu.otf": "./static/media/Apercu.83b693d3141cb9dd1538.otf",
-    "static/media/member_example.png": "./static/media/member_example.ed3e6956353ee8f9dc92.png",
-    "static/media/logo.svg": "./static/media/logo.3eacf6e5ff57adb2df5e5340fae5f474.svg",
-    "index.html": "./index.html",
-    "static/media/linkedin.svg": "./static/media/linkedin.1c4d10d67c39a2b664fc8cfb142a0b02.svg",
-    "static/media/menu.svg": "./static/media/menu.2e2fd2eeb05452ca8b31e88367ff1f65.svg"
+    "main.css": "/contek-preview/static/css/main.b811df20.css",
+    "main.js": "/contek-preview/static/js/main.25bf363d.js",
+    "static/media/about_decorate.png": "/contek-preview/static/media/about_decorate.fb62435284b29fb44bc9.png",
+    "static/media/intro_bg.png": "/contek-preview/static/media/intro_bg.2b283d4c4b72d25c483b.png",
+    "static/media/Apercu.otf": "/contek-preview/static/media/Apercu.83b693d3141cb9dd1538.otf",
+    "static/media/member_example.png": "/contek-preview/static/media/member_example.ed3e6956353ee8f9dc92.png",
+    "static/media/logo.svg": "/contek-preview/static/media/logo.3eacf6e5ff57adb2df5e5340fae5f474.svg",
+    "index.html": "/contek-preview/index.html",
+    "static/media/linkedin.svg": "/contek-preview/static/media/linkedin.1c4d10d67c39a2b664fc8cfb142a0b02.svg",
+    "static/media/menu.svg": "/contek-preview/static/media/menu.2e2fd2eeb05452ca8b31e88367ff1f65.svg"
   },
   "entrypoints": [
-    "static/css/main.04a3ab07.css",
-    "static/js/main.f4c5677f.js"
+    "static/css/main.b811df20.css",
+    "static/js/main.25bf363d.js"
   ]
 }
