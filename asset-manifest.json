@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/contek-preview/static/css/main.b811df20.css",
-    "main.js": "/contek-preview/static/js/main.25bf363d.js",
+    "main.css": "/contek-preview/static/css/main.950b1c6f.css",
+    "main.js": "/contek-preview/static/js/main.2ba83e68.js",
     "static/media/about_decorate.png": "/contek-preview/static/media/about_decorate.fb62435284b29fb44bc9.png",
     "static/media/intro_bg.png": "/contek-preview/static/media/intro_bg.2b283d4c4b72d25c483b.png",
     "static/media/Apercu.otf": "/contek-preview/static/media/Apercu.83b693d3141cb9dd1538.otf",
@@ -12,7 +12,7 @@
     "static/media/menu.svg": "/contek-preview/static/media/menu.2e2fd2eeb05452ca8b31e88367ff1f65.svg"
   },
   "entrypoints": [
-    "static/css/main.b811df20.css",
-    "static/js/main.25bf363d.js"
+    "static/css/main.950b1c6f.css",
+    "static/js/main.2ba83e68.js"
   ]
 }
