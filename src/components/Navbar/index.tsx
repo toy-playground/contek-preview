@@ -29,8 +29,8 @@ const Navbar = () => {
           </a>
           <div id='anchor-links' className='hidden md:flex text-xl font-medium'>
             <a href='#about'>About</a>
-            <a href='#team'>Team</a>
-            <a href='#find_us'>Find us</a>
+            <a href='#value'>Value</a>
+            {/* <a href='#find_us'>Find us</a> */}
           </div>
         </div>
         <CareersButton className='hidden md:block font-medium text-xl sm-careers' />
@@ -52,12 +52,12 @@ const Navbar = () => {
         <a href='#about' onClick={toggleMenu}>
           About
         </a>
-        <a href='#team' onClick={toggleMenu}>
-          Team
+        <a href='#value' onClick={toggleMenu}>
+          Value
         </a>
-        <a href='#find_us' onClick={toggleMenu}>
+        {/* <a href='#find_us' onClick={toggleMenu}>
           Find us
-        </a>
+        </a> */}
         <a
           onClick={() => {
             window.open('https://baidu.com');

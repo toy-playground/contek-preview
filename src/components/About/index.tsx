@@ -6,10 +6,13 @@ import { DESC_CLASS, PART_MARGIN_CLASS, TITLE_CLASS } from '@/styles';
 
 const About = () => {
   return (
-    <div id='about' className={`${PART_MARGIN_CLASS} relative`}>
+    <div
+      id='about'
+      className={`${PART_MARGIN_CLASS} relative flex justify-center`}
+    >
       <div
         id='about_desktop'
-        className='md:flex md:justify-between md:items-center hidden'
+        className='md:flex md:justify-between md:items-center hidden restricted'
       >
         <div className='2xl:mr-48 xl:mr-40 lg:mr-25 md:mr-20'>
           <div className={`${TITLE_CLASS} mb-12`}>{ABOUT_TITLE}</div>

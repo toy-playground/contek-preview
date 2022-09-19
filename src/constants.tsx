@@ -83,9 +83,9 @@ const FOOTER_LINKS: FooterLink[] = [
       {
         name: 'Careers',
       },
-      {
-        name: 'Team',
-      },
+      // {
+      //   name: 'Team',
+      // },
     ],
   },
   {

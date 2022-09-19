@@ -12,7 +12,7 @@ const Intro = () => {
         alt='introduction background'
         className='w-full object-cover h-full'
       />
-      <span className='absolute z-1'>
+      <span className='absolute z-1 restricted'>
         <strong>CONTEK</strong> is a leading quantitative trading firm
       </span>
     </div>

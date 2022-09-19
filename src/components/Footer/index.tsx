@@ -5,8 +5,8 @@ import { ALL_RIGHTS_RESERVED, FOOTER_LINKS } from '@/constants';
 import { DESC_CLASS } from '@/styles';
 const Footer = () => {
   return (
-    <footer className='md:pb-28 pb-12'>
-      <div className='flex w-full px-6 xl:px-60 lg:px-40 md:px-20 justify-between'>
+    <footer className='md:pb-28 pb-12 md:pt-20 pt-16 '>
+      <div className='flex  mx-6 xl:mx-60 lg:mx-40 md:mx-20 justify-between restricted 2xl:mx-auto'>
         {/* logo */}
         <div className='hidden md:block 2xl:mr-80 xl:mr-52 lg:mr-40 md:mr-16'>
           <span className='flex font-bold md:text-2xl text-sm items-center mb-24'>

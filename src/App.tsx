@@ -3,7 +3,6 @@ import Footer from '@/components/Footer';
 import Intro from '@/components/Intro';
 import Jobs from '@/components/Jobs';
 import Navbar from '@/components/Navbar';
-import Team from '@/components/Team';
 import Values from '@/components/Values';
 const App = () => {
   return (
@@ -12,7 +11,7 @@ const App = () => {
       <main>
         <Intro />
         <About />
-        <Team />
+        {/* <Team /> */}
         <Values />
         <Jobs />
       </main>

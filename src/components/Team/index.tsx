@@ -4,13 +4,16 @@ import { MEMBER_LIST, TEAM_TITLE } from '@/constants';
 import { PART_MARGIN_CLASS, TITLE_CLASS } from '@/styles';
 const Team = () => {
   return (
-    <div id='team' className={`${PART_MARGIN_CLASS} relative`}>
+    <div
+      id='team'
+      className={`${PART_MARGIN_CLASS} relative flex flex-col items-center`}
+    >
       <div
         className={`${TITLE_CLASS} md:mb-12 lg:mb-16 xl:mb-20 mb-10 text-center w-full`}
       >
         {TEAM_TITLE}
       </div>
-      <div className='grid grid-cols-4 2xl:gap-y-20 xl:gap-y-16 lg:gap-y-12 md:gap-y-8 gap-y-4'>
+      <div className='grid grid-cols-4 2xl:gap-y-20 xl:gap-y-16 lg:gap-y-12 md:gap-y-8 gap-y-4 restricted'>
         {MEMBER_LIST.map((member, index) => {
           return (
             <div key={index} className='flex flex-col items-center'>
