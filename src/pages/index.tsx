@@ -4,13 +4,15 @@ import { SEO } from "../components/seo";
 import icon from "../assets/images/icon-with-name.png";
 import linkedin from "../assets/images/linkedin.png";
 import bg from "../assets/images/bg.mp4";
+import buttonBg from "../assets/images/button-bg.png";
 
-const Button = ({ title, onClick }: { title: string; onClick: () => void }) => {
+const Button = ({ title, onClick }: { title: string; onClick?: () => void }) => {
   return (
     <button
-      className="py-4 px-auto border border-white rounded whitespace-nowrap w-[260px]"
+      className="py-[14px] px-auto rounded whitespace-nowrap w-[260px] relative"
       onClick={onClick}
     >
+      <img src={buttonBg} alt=" " className="w-full absolute top-[1px] bottom-[1px]"></img>
       {title}
     </button>
   );
@@ -26,33 +28,35 @@ const IndexPage: React.FC<PageProps> = () => {
           src={linkedin}
           className="h-[28px] cursor-pointer"
           onClick={() => {
-            window.open("https://contek.io", "_blank");
+            window.open(
+              "https://www.linkedin.com/company/contek?trk=ppro_cprof",
+              "_blank"
+            );
           }}
         ></img>
       </header>
       <main className="relative w-screen min-h-screen">
         <video
-          className="absolute top-0 bottom-0 left-0 right-0 z-10 object-cover w-screen h-screen"
+          className="fixed top-0 bottom-0 left-0 right-0 z-10 object-cover w-screen h-screen"
           controls={false}
           autoPlay
           loop
           muted
           src={bg}
-        >
-        </video>
+        ></video>
         <div className="relative z-10 w-screen h-full px-[20px] sm:px-[100px] md:px-[160px] pt-[80px] pb-[10px]">
           <div
             className="pt-20 md:pt-40 text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap"
             style={{ fontFamily: "PressStart2P" }}
           >
-            Discovering Patterns in{" "}
+            Discovering Patterns <span className="md:ml-[-10px]">in</span>
           </div>
           <div
-            className="text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap gradient-title pt-4 w-fit"
+            className="text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap gradient-title pt-4 w-fit relative"
             style={{ fontFamily: "PressStart2P" }}
           >
             Crypto Markets
-            <span className="animate-cursor">_</span>
+            <span className="animate-cursor absolute 2xl:bottom-[6px] xl:bottom-[4px] bottom-[4px]">_</span>
           </div>
           <div className=" text-2xl pt-16">
             Contrarian Technology is a proprietary trading firm. We run quant
@@ -60,26 +64,28 @@ const IndexPage: React.FC<PageProps> = () => {
             intervention.
           </div>
           <div
-            className="flex pt-20 sm:pt-52 gap-5 pb-20 flex-wrap"
+            className="flex pt-20 sm:pt-52 gap-5 pb-20 flex-wrap text-sm"
             style={{ fontFamily: "PressStart2P" }}
           >
             <Button
               title="CAREERS"
               onClick={() => {
-                console.log("careers");
+                window.open(
+                  "https://www.zhipin.com/gongsir/9ab2e1f8dfed1df51nBy2ty4Flo~.html?ka=company-jobs",
+                  "_blank"
+                );
               }}
             />
+            <a href="mailto:contact@contek.io">
             <Button
               title="CONTACT US"
-              onClick={() => {
-                console.log("contact us");
-              }}
             />
+            </a>
           </div>
         </div>
       </main>
       <footer
-        className="w-full fixed bottom-0 h-[10px] z-20"
+        className="w-full fixed bottom-0 h-[8px] z-20"
         style={{
           background: "linear-gradient(90deg, #01FF67 -0.06%, #01ACA2 100%)",
         }}
