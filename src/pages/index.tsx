@@ -21,7 +21,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     //Head
     <>
-      <header className="w-full fixed top-0 z-20 flex justify-between items-center h-[64px] md:h-[80px] px-8 md:px-12 border-b-[#6D6D6D] border-b bg-black">
+      <header className="w-full fixed top-0 z-20 flex justify-between items-center h-[64px] px-8 md:px-12 border-b-[#434343] border-b bg-black">
         <img alt="contek logo" src={icon} className="h-[28px]"></img>
         <img
           alt="in"
@@ -47,24 +47,24 @@ const IndexPage: React.FC<PageProps> = () => {
         <div className="relative z-10 w-screen h-full px-[20px] sm:px-[100px] md:px-[160px] pt-[80px] pb-[10px]">
           <div
             className="pt-20 md:pt-40 text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap"
-            style={{ fontFamily: "PressStart2P" }}
+            style={{ fontFamily: "PressStart2P",lineHeight:"1.5" }}
           >
             Discovering Patterns <span className="md:ml-[-10px]">in</span>
           </div>
           <div
-            className="text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap gradient-title pt-4 w-fit relative"
-            style={{ fontFamily: "PressStart2P" }}
+            className="text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap gradient-title pt-2 w-fit relative"
+            style={{ fontFamily: "PressStart2P",lineHeight:"1.5" }}
           >
             Crypto Markets
             <span className="animate-cursor absolute 2xl:bottom-[6px] xl:bottom-[4px] bottom-[4px]">_</span>
           </div>
-          <div className=" text-2xl pt-16">
+          <div className=" text-2xl pt-16 leading-loose" style={{lineHeight:"2"}}>
             Contrarian Technology is a proprietary trading firm. We run quant
             strategies 24/7 across major crypto markets without manual
             intervention.
           </div>
           <div
-            className="flex pt-20 sm:pt-52 gap-5 pb-20 flex-wrap text-sm"
+            className="flex pt-20 sm:pt-52 gap-5 pb-20 flex-wrap text-[13px] leading-[20px]"
             style={{ fontFamily: "PressStart2P" }}
           >
             <Button
