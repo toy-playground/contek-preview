@@ -46,7 +46,7 @@ const IndexPage: React.FC<PageProps> = () => {
         ></video>
         <div className="relative z-10 w-screen h-full px-[20px] sm:px-[100px] md:px-[160px] pt-[64px] pb-[10px]">
           <div
-            className="pt-20 md:pt-30 lg:pt-[15vh] xl:pt-[20vh] text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap"
+            className="pt-20 md:pt-30 xl:pt-40 text-3xl xl:text-4xl 2xl:text-5xl lg:flex-nowrap lg:whitespace-nowrap"
             style={{ fontFamily: "PressStart2P",lineHeight:"1.5" }}
           >
             Discovering Patterns <span className="md:ml-[-10px]">in</span>
